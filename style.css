@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+width: 90%;
+margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+
+button{
+    border: none;
+}
+#header{
+    padding: 20px 0;
+    border-bottom: 1px solid;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo{
+    display: flex;
+    gap: 10px;
+
+}
+ .header nav {
+ display: flex;
+ align-items: center;
+ gap: 60px; ;
+ 
+ }
+ .header nav select ,a{
+    border: none;
+    color: black;
+
+ }
+.header-icons{
+ display: flex;
+ align-items: center;
+ gap: 20px; 
+
+}
+ 
+
+/*? INFO SECTION start */
+
+#info{
+    padding: 70px o;
+}
+.info {
+    display:flex;
+    align-items: center;
+}
+.info-text{
+    width: 500px;
+    
+}
+.info-text h1{
+    font-size: 45px;
+    font-weight: 300px;
+}
+.info-text h1 span{
+    color: red;
+}
+.info-text p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+
+.info-text button{
+    padding: 12px 32px;
+    background:red ;
+    color: wheat;
+    
+}
+/*? info section  end */
+
+
+/*? about section start */
+.about{
+    padding: 30px 0;
+    background: #f6f6f6;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text h1{
+    width: 454px;
+    font-size: 32px;
+}
+.about-text h1 span{
+    color:#EE4248;
+
+}
+
+.about-text p{
+    margin-top: 30px;
+    width: 520px; ;
+}
+/*? about section end */
+
+/*? PRODUCT SECTION START*/
+ #product{
+    padding: 100px 0;
+ }
+ .product h2{
+    text-align: center;
+ }
+ .product-block{
+    padding: 40px 0;
+    display:flex;
+    justify-content: space-between;
+    
+ }
+ .product-box h3{
+    font-size: 28px;
+    color: red;
+    font-weight: 500px;
+ }
+ .product-box p{
+    line-height: 27px ;
+    margin: 20px 0;
+    width: 319px;
+    font-size: 18px;
+    color: #30444E;
+ }
+ .product-box button{
+    padding: 8px 16px;
+    background:red ;
+    color: #fff; ;
+ }
+
+/*? PRODUCT SECTION end*/
+
+/*? CONTACT SECTION START*/
+.contact{
+    padding-bottom: 20px;
+    width: 800px; ;
+    display:flex;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+.contact p{
+    color: #263238;
+}
+
+.contact-left h4{
+    margin: 10px 0 0 0;
+    
+}
+.contact-right h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500px;
+}
+/*? CONTACT SECTION end*/
+
+/*? footer SECTION start*/
+.footer{
+    padding: 20px 0;
+    background: red;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer p{
+    font-size: 18px;
+    font-weight:400;
+    color: #fff;
+}
+
+/*? footer SECTION end*/
+
+
+
+
+
+
+
+
+
+
+
